@@ -17,13 +17,13 @@
 	<pluginRepositories>
     <pluginRepository>
       <id>project</id>
-      <url>http://localhost:8081/nexus/content/groups/public/</url>
+      <url>http://localhost:8080/nexus/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
 	<repositories>
       <repository>
         <id>project</id>
-        <url>http://localhost:8081/nexus/content/groups/public/</url>
+        <url>http://localhost:8080/nexus/content/groups/public/</url>
        </repository>
   </repositories>
 	<!-- Remote changes-->
@@ -31,12 +31,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/central/</url>
+            <url>http://localhost:8080/nexus/content/repositories/central/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/central/</url>
+            <url>http://localhost:8080/nexus/content/repositories/central/</url>
         </snapshotRepository>
     </distributionManagement--> 
 	<dependencies>
